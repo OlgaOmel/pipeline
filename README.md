@@ -18,7 +18,6 @@
 ## Архитектура
 ```text
 pipeline/
-├── config
 ├── dags
 │   ├── __pycache__
 │   └── de_pipeline_dag.py
@@ -33,11 +32,9 @@ pipeline/
 │   ├── dag_id=ml_breast_cancer_pipeline
 │   ├── dag_processor_manager
 │   └── scheduler
-├── plugins
 ├── results
 │   ├── metrics.json
 │   └── model.pkl
-├── .env
 ├── docker_compose.yaml
 ├── Dockerfile
 └── README.md
